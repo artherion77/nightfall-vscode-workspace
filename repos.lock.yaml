@@ -1,0 +1,15 @@
+version: 1
+base_dir: ../
+repos:
+  - name: nightfall-scripts
+    url: git@github.com:artherion77/nightfall-scripts.git
+    branch: main
+    path: nightfall-scripts
+  - name: nightfall-mcp
+    url: git@github.com:artherion77/nightfall-mcp.git
+    branch: main
+    path: nightfall-mcp
+  - name: nightfall-photo-ingress
+    url: git@github.com:artherion77/nightfall-photo-ingress.git
+    branch: main
+    path: nightfall-photo-ingress

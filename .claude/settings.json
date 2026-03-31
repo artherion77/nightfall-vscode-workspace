@@ -1,0 +1,10 @@
+{
+  "mcpServers": {
+    "nightfall": {
+      "command": "python3",
+      "args": [
+        "../nightfall-mcp/nightfall_mcp_server.py"
+      ]
+    }
+  }
+}

@@ -1,0 +1,23 @@
+{
+  "version": "2.0.0",
+  "tasks": [
+    {
+      "label": "nightfall: bootstrap repos",
+      "type": "shell",
+      "command": "./scripts/bootstrap-repos.sh",
+      "options": {
+        "cwd": "${workspaceFolder}"
+      },
+      "problemMatcher": []
+    },
+    {
+      "label": "nightfall: update repos",
+      "type": "shell",
+      "command": "./scripts/update-repos.sh",
+      "options": {
+        "cwd": "${workspaceFolder}"
+      },
+      "problemMatcher": []
+    }
+  ]
+}

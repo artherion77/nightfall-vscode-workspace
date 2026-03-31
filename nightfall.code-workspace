@@ -1,0 +1,22 @@
+{
+  "folders": [
+    {
+      "path": "."
+    },
+    {
+      "path": "../nightfall-scripts"
+    },
+    {
+      "path": "../nightfall-mcp"
+    },
+    {
+      "path": "../nightfall-photo-ingress"
+    }
+  ],
+  "settings": {
+    "files.exclude": {
+      "**/.venv": true,
+      "**/__pycache__": true
+    }
+  }
+}
