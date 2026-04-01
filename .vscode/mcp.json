@@ -1,12 +1,4 @@
 {
-	"inputs": [
-		{
-			"id": "token",
-			"type": "promptString",
-			"description": "",
-			"password": true
-		}
-	],
 	"servers": {
 		"nightfall": {
 			"type": "stdio",
@@ -14,6 +6,27 @@
 			"args": [
 				"${workspaceFolder}/../nightfall-mcp/nightfall_mcp_server.py"
 			]
+		},
+		"com.microsoft/azure": {
+			"type": "stdio",
+			"command": "dnx",
+			"args": [
+				"Azure.Mcp@2.0.0-beta.36",
+				"--yes",
+				"--",
+				"server",
+				"start"
+			],
+			"gallery": "https://api.mcp.github.com",
+			"version": "2.0.0-beta.36"
 		}
-	}
+	},
+	"inputs": [
+		{
+			"id": "token",
+			"type": "promptString",
+			"description": "",
+			"password": true
+		}
+	]
 }

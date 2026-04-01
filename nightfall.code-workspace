@@ -11,6 +11,9 @@
     },
     {
       "path": "../nightfall-photo-ingress"
+    },
+    {
+      "path": "../mammotion-web-ui-container"
     }
   ],
   "settings": {
