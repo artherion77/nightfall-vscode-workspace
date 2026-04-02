@@ -1,0 +1,10 @@
+{
+    "chat.mcp.serverSampling": {
+        "nightfall-vscode-workspace/.vscode/mcp.json: com.microsoft/azure": {
+            "allowedModels": [
+                "copilot/auto",
+                "copilotcli/claude-sonnet-4.6"
+            ]
+        }
+    }
+}
