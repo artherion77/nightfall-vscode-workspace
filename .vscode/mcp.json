@@ -1,12 +1,5 @@
 {
 	"servers": {
-		"nightfall": {
-			"type": "stdio",
-			"command": "${workspaceFolder}/../nightfall-mcp/.venv/bin/python",
-			"args": [
-				"${workspaceFolder}/../nightfall-mcp/nightfall_mcp_server.py"
-			]
-		},
 		"com.microsoft/azure": {
 			"type": "stdio",
 			"command": "dnx",
