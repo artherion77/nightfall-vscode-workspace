@@ -14,6 +14,9 @@
     },
     {
       "path": "../mammotion-web-ui-container"
+    },
+    {
+      "path": "../trading-gapfill-dashboard"
     }
   ],
   "settings": {
